@@ -52,8 +52,8 @@ const christmas = 6
 const futureId = 9
 
 // Do not change code above this comment
-
-console.log(holidays.futureId.name || 'ID {futureId} not created yet')
+console.log(holidays[8])
+console.log(holidays[futureId] ? holidays[futureId].name : `ID ${futureId} not created yet`)
 
 copied = holidays.christmas
 copied = { name: 'X-mas Day' }
